@@ -1,29 +1,15 @@
-# README #
+# Прошивка прототипа браслета для мониторинга ПФПЧ
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Прошивка прототипа браслета для мониторинга психофизиологического состояния человека, написанная на C под STM32 CortexM3 микроконтроллер. Объект моей научной университетской деятельности как само устройство с датчиками, методами измерений.
 
-### What is this repository for? ###
+* включение/выключение при помощи кнопки, спящий режим
+* снятие 3-х сигналов с АПЦ с орпеделенной дискретной частотой (по таймеру)
+* предобработка сигналов
+* конфигурация, работа с модулем Bluetooth LE 4.0
+* отправка данных сигналов по BLE 4.0
+* низкоуровневое управление входными/выходными цифровыми сигналами, для конфигурирования электронных схем
+* конфигурация, работа с OLED дисплеем, графический вывод состояния устройства, графиков сигналов, несоклько режимов отображения
+* управление зарядкой/питанием от li-ion аккумулятора
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+**Ссылка на наглядную информацию (документы/ фото):**
+https://drive.google.com/open?id=16R0PIGLphOtBD7Up5n63wx_W4_CKG10b
